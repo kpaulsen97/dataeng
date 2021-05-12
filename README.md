@@ -46,7 +46,7 @@ After you have finished your exercises, merge to `dev` and then to `main`. We'll
 
 ## exercise 1.3: Packages
 
-Deploy a python package named `cmc_dataeng_internship_<your-name>` to PyPi. We'll be running `pip install cmc_dataeng_internship_<your-name>` and executing the python package such as:
+Deploy a python package named `cmc_dataeng_internship_<your-name>` to PyPi. We'll be running `pip install cmc_dataeng_internship_<your-name>` and executing the python package such that:
 
 ```python
 >>> from cmc_dataeng_internship_<your-name> import exercise13
