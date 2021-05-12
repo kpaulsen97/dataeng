@@ -60,5 +60,9 @@ Coding for our patients.
  You'll find a simple pandas exercise in `data_analytics.py`. The code you find is to be left untouched. You should replace only the lines where you read `# your solution here`. As a hint, your `equipment_measures` dataset could look something like this:
 
  ![alt text](public/equipment_measurements.png)
+ 
+ to which the runtime averages would be:
+ 
+ ![alt text](public/runtime_average.png)
 
  *your explanation goes here, include prints wherever you find it appropriate or code snippets*
