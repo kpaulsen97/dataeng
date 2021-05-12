@@ -38,9 +38,9 @@ Develop the solution to exercise **2.1** in the ``exercise21`` branch. Commit , 
 
 When merging from `exercise22` to `dev`, force some sort of conflict. Explain how you fixed it in the commit message. 
 
-All your edits to this file should me made on `readme` branch.
+All your edits to this file should me made on the `readme` branch.
 
-After you have finished your exercises, merge to `dev` and then to `main`. We'll be checking the last push before 00:40, 17-05-2021.
+After you have finished your exercises, merge to `dev` and then to `main`. We'll be checking the last push before 01:10, 16-05-2021.
 
 *your explanation goes here, include prints wherever you find it appropriate*
 
