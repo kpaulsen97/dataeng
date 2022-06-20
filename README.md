@@ -1,6 +1,6 @@
 Welcome to the CMC Data Engineering Tech Exercise. We hope you'll enjoy completing it just as much as we've enjoyed doing it for you. Please bare in mind what's most important for us is understanding how you go about problem solving.
 
-Giving just the precise answer or just the adequate code is sufficient, but you can also write an explanation of your solution or strategy, including diagrams, prints, or whatever you see fit. We'll be going through the results monday the 17-05-2021, meaning we'll only take into account the last push to main of your own github repo, dating before 00:00 of 16-05-2021. Your repo should be a clone of this one.
+Giving just the precise answer or just the adequate code is sufficient, but you can also write an explanation of your solution or strategy, including diagrams, prints, or whatever you see fit. Your repo should be a clone of this one.
 
 Optionally, you can simply send us your solutions by email. Either way, you'll get a chance to add/comment on your solution on the next interview.
 
@@ -11,7 +11,7 @@ Grateful for your time so far,
 **The NN CMC Data Foundation Team**
 
 
-Should you have any questions, please contact Diogo at 31443612, the 14-05-2012 from 09:00 to 16:00.
+Should you have any questions, please contact Diogo at 31443612.
 
 ## exercise 1 DevOps
 ### exercise 1.1 SSH Clone
