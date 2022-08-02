@@ -18,10 +18,12 @@ Should you have any questions, please contact Diogo at 31443612.
 
 A team of chemists needs you to securely clone this repo with an SSH key. Show that you've successfuly cloned and pushed to your cloned public repo by sending us its url. 
 
-*your explanation goes here, include prints wherever you find it appropriate*<br>
-I opened my Git Bash in a local folder, executed the command "git clone SSH key", with the SSH copied from this repository. <br>
-Afterwards I went into the cloned folder, changed the origin to mine public folder with the command "git remote set-url origin https://github.com/kpaulsen97/novodataeng.git". <br>
-And finally pushed the files from my local repository to the public one with the command "git push -u origin main".
+*your explanation goes here, include prints wherever you find it appropriate*
+
+
+- I opened my Git Bash in a local folder, executed the command "git clone SSH key", with the SSH copied from this repository. <br>
+- Afterwards I went into the cloned folder, changed the origin to my public folder with the command "git remote set-url origin https://github.com/kpaulsen97/dataeng.git". <br>
+- And finally pushed the files from my local repository to the public one with the command "git push -u origin main".
 
 
 ### exercise 1.2 Git Ops
