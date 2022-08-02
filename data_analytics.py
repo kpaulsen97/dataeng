@@ -42,23 +42,4 @@ equipment_measurements = None  # dataframe
 
 # your solution here
 
-eq_name = ["EQ"+str(x) for x in equipments.index]
-temp_equipments = equipments.copy()
-temp_equipments.index = eq_name
-temp_equipments = temp_equipments.reset_index().rename(columns={'index' : 'equipment_id'}).drop(["runtime"],1)
-ind = pd.MultiIndex.from_frame(temp_equipments)
-equipment_measurements = measurements.set_index(ind)
-
-
-
-
-keys = ("EQ2", "18", "12")
-compound = "meglitinides"
-meglitinides_measurement = equipment_measurements.loc[keys, compound]  # float
-
-# exercise 2.2 Get the average runtime per month for the
-# equipments that measured quantities of sulfonylureas
-# and of biguanide that are greater than meglitinides_measurement
-avg_monthly_runtime = None  # dataframe
-
-# your solution here
+incorrect version for dev
