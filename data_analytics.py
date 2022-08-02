@@ -34,11 +34,23 @@ equipments = pd.DataFrame(
 )
 equipments.index.name = "equipment_name"
 
+
+
 # exercise 2.1 Get the random measurement of the equipment 2
 # for meglitinides sampled the 18th of Decembre
 equipment_measurements = None  # dataframe
 
 # your solution here
+
+eq_name = ["EQ"+str(x) for x in equipments.index]
+temp_equipments = equipments.copy()
+temp_equipments.index = eq_name
+temp_equipments = temp_equipments.reset_index().rename(columns={'index' : 'equipment_id'}).drop(["runtime"],1)
+ind = pd.MultiIndex.from_frame(temp_equipments)
+equipment_measurements = measurements.set_index(ind)
+
+
+
 
 keys = ("EQ2", "18", "12")
 compound = "meglitinides"
