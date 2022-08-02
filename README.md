@@ -77,3 +77,15 @@ Coding for our patients.
  ![alt text](public/runtime_average.png)
 
  *your explanation goes here, include prints wherever you find it appropriate or code snippets*
+ <br>
+ 2.1: <br>
+ - created an array with the appropriate naming of the equipment. <br>
+ - I've set it as the new index of a copy of equipments. <br>
+ - set the index as a column, rename it, and dropped runtime (I thought it wasn't relevant in this exercise). <br>
+ - created an multiindex with the just created df. <br>
+ - set it as the index of measurements to create equipment_measurements. <br>
+
+ 2.2: <br>
+ - selected the equipments that respected the condition required. <br>
+ - selected the rows with the right equipments, and determined the average of runtime by month. 
+
