@@ -67,6 +67,13 @@ Coding for our patients.
 
 *your explanation goes here, include prints wherever you find it appropriate or code snippets*
 
+- I created a folder named package. <br>
+- Inside package, I created a folder named cmc_dataeng_internship_kenneth_paulsen. <br>
+- Inside this other folder, I created a python script called exercise13 which contains the function which prints the required phrase. <br>
+- In the package folder, I created a setup.py which calls the setup method and describes the package.
+- in the cmd in the package folder I executed "python setup.py sdist", which creates meta data and essential source files needed for installing by pip. <br>
+- finally I executed "twine upload dist/*" which uploads the package to PyPi. 
+
 ## exercise 2 Data Analytics
  You'll find a simple pandas exercise in `data_analytics.py`. The code you find is to be left untouched. You should replace only the lines where you read `# your solution here`. As a hint, your `equipment_measures` dataset could look something like this:
 
