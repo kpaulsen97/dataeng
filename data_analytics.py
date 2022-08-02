@@ -52,5 +52,18 @@ equipment_measurements = measurements.set_index(ind)
 
 
 
-incorrect version
+keys = ("EQ2", "18", "12")
+compound = "meglitinides"
+meglitinides_measurement = equipment_measurements.loc[keys, compound]  # float
+
+
+# exercise 2.2 Get the average runtime per month for the
+# equipments that measured quantities of sulfonylureas
+# and of biguanide that are greater than meglitinides_measurement
+avg_monthly_runtime = None  # dataframe
+
+# your solution here
+
+idx = (measurements["sulfonylureas"].values > meglitinides_measurement) & (measurements["biguanide"].values > meglitinides_measurement)
+avg_monthly_runtime = equipments[idx].groupby("sample_month").mean("runtime")
 
