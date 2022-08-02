@@ -46,13 +46,15 @@ All your edits to this file should me made on the `readme` branch.
 
 After you have finished your exercises, merge to `dev` and then to `main`. We'll be checking the last push before 01:10, 16-05-2021.
 
-*your explanation goes here, include prints wherever you find it appropriate*<br>
-from the main branch, I've created and switched to dev with the command "git checkout -b dev".<br>
-Afterwards I did the same for exercise21, so inside dev "git checkout -b exercise21".<br>
-I've written my solution,committed it, pushed it to the origin with "git push --set-upstream origin exercise21", went to dev with the command "git checkout dev", and merged with exercise21 by doing "git merge exercise21". <br>
-So I created exercise22 with "git checkout -b exercise22", I've written my solution, committed it, then I've overwritten completely some code inside exercise22 to cause a conflict, committed it, did the same in the branch dev, tried to merge and received the merge conflict error. 
-Aborted the merge with "git merge --abort", reverted in dev to the past commit with "git revert --no-commit HEAD", committed it and gave it an appropriate explanatory message, did the same in exercise22, then pushed exercise22 to origin, and merged with dev, this time successfully.
-Now I created another branch called readme and I'm currently modifying the README.md content. Once I'm done, I'll commit the changes, push to origin, merge with dev, and then I'll merge main with dev and push main to origin.
+*your explanation goes here, include prints wherever you find it appropriate*
+
+
+- from the main branch, I've created and switched to dev with the command "git checkout -b dev".<br>
+- Afterwards I did the same for exercise21, so inside dev "git checkout -b exercise21".<br>
+- I've written my solution for 2.1, committed it, pushed it to the origin with "git push --set-upstream origin exercise21", went to dev with the command "git checkout dev", and merged with exercise21 by doing "git merge exercise21". <br>
+- So I created exercise22 with "git checkout -b exercise22", I've written my solution, committed it, then I've overwritten completely some code inside exercise22 to cause a conflict, committed it, did the same in the branch dev, tried to merge and received the merge conflict error. <br>
+-  I aborted the merge with "git merge --abort", reverted in dev to the past commit with "git revert --no-commit HEAD", committed it and gave it an appropriate explanatory message, did the same in exercise22, then pushed exercise22 to origin, and merged with dev, this time successfully.<br>
+- Now I created another branch called readme and I'm currently modifying the README.md content. Once I'm done, I'll commit the changes, push to origin, merge with dev, and then I'll merge main with dev and push main to origin.
 
 
 ## exercise 1.3: Packages
